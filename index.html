@@ -24,18 +24,21 @@
     
     <section class="main">
       
-      <div id="firstNote" class="notes">One <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio></div>
+      <div id="firstNote" class="notes">One <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" onclick="audio.play()"></audio></div>
       <div id="secondNote" class="notes">Two</div>
       <div id="thirdNote" class="notes">Three</div>
       <div id="fourthNote" class="notes">Four</div>
       <div id="fifthNote" class="notes">Five</div>
       <div id="sixthNote" class="notes">Six</div>
-      <div id="seventhNote" class="notes">Seven</div>
+      <div id="seventhNote" class="notes">Seven <audio autoplay>
+        <source src="css/Lets Go.m4a" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio> </div>
 
-    
+    <button onclick="play()">Play Audio</button>
       
     </section>
 
-		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="mscript.js"></script>
 	</body>
 </html>    
