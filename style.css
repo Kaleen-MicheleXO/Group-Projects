@@ -18,16 +18,16 @@ body{
 }
 h1{
   font-size: 3rem;
-  padding-left:25px
-  display: flex 
-}
+  margin-left:40rem;
+ 
+}  
 
 img{ 
   height: 900px;
   width: 900px;
 }
 .main{ 
-  margin: 100px 0 0 0;
+  margin: 100px 10px 0 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,12 +35,10 @@ img{
 }
 
 .notes{
-  height: 500px;
-  width: 120px;
+  height: 450px;
+  width: 121px;
   background-color: rgba(255,255,0,0.5);
   border: 3px solid red;
-  
-  
+  font-size:2rem;
   
   }
-}
