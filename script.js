@@ -1,53 +1,36 @@
-// document.querySelector("#firstNote").addEventListener("click", music1);
-// document.querySelector("#secondNote").addEventListener("click", music2)
-// document.querySelector("#secondNote").addEventListener("click", music3)
-// document.querySelector("#secondNote").addEventListener("click", music4)
-// document.querySelector("#secondNote").addEventListener("click", music5)
-// document.querySelector("#secondNote").addEventListener("click", music6)
-// document.querySelector("#secondNote").addEventListener("click", music7)
-
-// function music1(){
-//   let audio = document.getElementById("audio");
-//   alert("hi");
-//   //let audio = new Audio("https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/bobs-burgers-supercut-all-of-tinas-moans.mp3?v=1646962641994");
-//   audio.play();
-//   if (audio.paused){
-//     audio.play();
-//   } else{
-//     audio.pause();
-//     audio.currentTime = 0;
-//   }
-// }
-// function music2(){
-//   let audio = document.getElementById("secondNote");
-//   if (audio.paused){
-//     audio.play();
-//   } else{
-//     audio.pause();
-//     audio.currentTime = 0;
-//   }
-// }
-// function music7(){
-//   let audio = document.getElementById("seventhNote");
-//   if (audio.paused){
-//     audio.play();
-//   } else{
-//     audio.pause();
-//     audio.currentTime = 0;
-//   }
-// }
-
-
-
-
-
-
-
-var audio = new Audio('audio_file.mp3');
-audio.play();
-
-function play() {
+function playTRex() {
   var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3');
+  audio.play();
+}
+
+function playMusic() {
+  var audio = new Audio('https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/notes_A.mp3?v=1646964279079');
+  audio.play();
+}
+
+function playLetsGo() {
+  var audio = new Audio('https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/Lets%20Go.m4a?v=1646963856385');
+  audio.play();
+}
+
+
+function bruh() {
+  var audio = new Audio('');
+  audio.play();
+}
+
+function playLetsGo() {
+  var audio = new Audio('');
+  audio.play();
+}
+
+function playLetsGo() {
+  var audio = new Audio('');
+  audio.play();
+}
+
+function playLetsGo() {
+  var audio = new Audio('');
   audio.play();
 }
 
@@ -55,11 +38,7 @@ function play() {
 
 
 
-
-
-
-
-// https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/movie_1.mp3?v=1646962857615
+// https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/movie_1.mp3?v=1646962857615    THIS IS THE BRUH sound
 
 
 
