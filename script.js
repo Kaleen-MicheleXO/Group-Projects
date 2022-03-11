@@ -5,8 +5,8 @@ function playTRex() {
 }
 
 // Note 2
-function playPianoNote() {
-  var audio = new Audio('https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/notes_A.mp3?v=1646964279079');
+function playGotGot() {
+  var audio = new Audio('https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/Got%20got.m4a?v=1646965420264');
   audio.play();
 }
 
@@ -35,13 +35,14 @@ function playBoatsAndLogs() {
 }
 
 // Note 7
-function play() {
-  var audio = new Audio('');
+function playUhOh() {
+  var audio = new Audio('https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/Uh%20oh.m4a?v=1646965407020');
   audio.play();
 }
 
 
 
+// https://www.101soundboards.com/sounds/193439-are-you-happy-now 
 
 
 // https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/movie_1.mp3?v=1646962857615    THIS IS THE BRUH sound
