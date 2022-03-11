@@ -10,9 +10,16 @@ body{
   font-size: 62.5%;
   font-family: 'Gloria Hallelujah', cursive;
   background-image: url(https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/piano.jpg?v=1646959240208);
+  background-repeat: no-repeat;
+  background-position: center top;
+  
+  
+  
 }
 h1{
   font-size: 3rem;
+  padding-left:25px
+  display: flex 
 }
 
 img{ 
@@ -20,7 +27,7 @@ img{
   width: 900px;
 }
 .main{ 
-  margin-left: 25px;
+  margin: 100px 0 0 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -28,8 +35,8 @@ img{
 }
 
 .notes{
-  height: 550px;
-  width: 125px;
+  height: 500px;
+  width: 120px;
   background-color: rgba(255,255,0,0.5);
   border: 3px solid red;
   
