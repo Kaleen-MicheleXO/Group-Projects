@@ -26,9 +26,13 @@ h2{
   margin-left: 40rem;
 }
 #musicNote{
-  width:20rem;
+  margin-top: 5rem;
+  width:40rem;
   height: 20rem;
-  display: inline;
+}
+
+div span{
+  padding-top:6rem;
 }
 
 img{ 
