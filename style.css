@@ -1,53 +1,47 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
+body {
   font-size: 62.5%;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: "Gloria Hallelujah", cursive;
   background-image: url(https://cdn.glitch.global/9db1163b-024c-40fd-b302-a4340985e8af/piano.jpg?v=1646959240208);
   background-repeat: no-repeat;
   background-position: center top;
-  
-  
-  
 }
-h1{
+h1 {
   font-size: 3rem;
-  margin-left:40rem;
- 
-}  
-#musicNote{
+  margin-left: 40rem;
+}
+#musicNote {
   margin-top: 5rem;
-  width:30rem;
+  width: 30rem;
   height: 20rem;
   margin-left: 38%;
   margin-bottom: 10%;
 }
 
-div span{
-  padding-top:6rem;
+div span {
+  padding-top: 6rem;
 }
 
-img{ 
+img {
   height: 900px;
   width: 900px;
 }
-.main{ 
+.main {
   margin: 100px 10px 0 0;
   display: flex;
   flex-direction: row;
-  align-items:flex-end;
+  align-items: flex-end;
   justify-content: center;
   color: red;
 }
 
-.notes{
+.notes {
   height: 450px;
   width: 121px;
   font-size: 1.5rem;
-
+}
